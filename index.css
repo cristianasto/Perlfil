@@ -1,3 +1,109 @@
+
+
 body{
-    background-color: aqua;
+    margin: 0
+
+
 }
+
+p{
+    margin: 0;
+}
+
+.padre-mayor{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0 auto;
+    margin-top: 150px;
+    width: 1340px;
+    height: 670px;
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.padre{
+
+    width: 326px;
+    height: 350px;
+    border-radius: 16px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    /* border: solid 3px #1094A0; */
+    box-shadow: 0px 0px 7px rgb(207, 207, 207);
+}
+
+.barra-superior{
+    width: 100%;
+    height: 127px;
+    background-image: url("./images/bg-pattern-card.svg");
+}
+
+.foto{
+    width: 90px;
+    height: 90px;
+    background-image: url("./images/image-victor.jpg");
+    border-radius: 50%;
+    position: absolute;
+    top: 78px;
+    border: solid 4px rgb(255, 255, 255);
+}
+
+.datos{
+    box-sizing: border-box;
+    width: 100%;
+    height: 134px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    border-bottom: solid 3px #F6F6F6;
+}
+
+.datos h4{
+    margin: 0;
+    font-size: 19px;
+    font-weight: 900;
+}
+.datos h4 span{
+    color: rgb(163, 163, 163);
+}
+
+.datos p{
+    
+    margin-top: 7px;
+    color: rgb(163, 163, 163);
+}
+
+
+
+.estadisticas{
+    box-sizing: border-box;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    flex-grow: 1;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.estadisticas h3{
+    margin: 0;
+    padding-bottom: 3px;
+}
+
+.estadisticas p{
+    color: rgb(163, 163, 163);
+    font-size: 14px;
+}
+
+
